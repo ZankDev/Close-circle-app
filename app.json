@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "סגירת מעגל",
+    "slug": "sgidrat-maagal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "locales": {
+      "he": {
+        "name": "סגירת מעגל"
+      }
+    },
+    "splash": {
+      "backgroundColor": "#1A1A1D"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "backgroundColor": "#1A1A1D"
+    },
+    "web": {
+      "bundler": "metro",
+      "backgroundColor": "#0A0A0B",
+      "dir": "rtl",
+      "lang": "he"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1c93444b-b780-46d5-896e-cb7685071372"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1c93444b-b780-46d5-896e-cb7685071372"
+    }
+  }
+}
